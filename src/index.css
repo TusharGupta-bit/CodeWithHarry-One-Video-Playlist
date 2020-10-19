@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #cec6c69e;
+}
+
+.heading{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+.heading:hover{
+    color: #ff6600;
+    transition: 0.2s all ease-in-out;
+}
+.Cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Card{
+    border: 2px solid black;
+    display: inline-block;margin: 3%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+}
+.Card:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 10px rgba(41, 39, 39, 0.822);
+}
+.img-size{
+    height: 200px;
+    border-radius: 20px;
+}
+
+.btn{
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    margin: 10px 20px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ff6600;
+    font-size: 1rem ;
+    font-weight: 800;
+    border: 2px solid #ff6600;
+}
+.btn:hover{
+    background-color: #ff6600;
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+.Vdo-name{
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.Vdo-name:hover{
+    color: #ff6600;
+}
